@@ -1,4 +1,3 @@
-import React from "react";
 import "./job.css";
 
 interface Props {

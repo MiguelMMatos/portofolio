@@ -1,8 +1,7 @@
-import React from "react";
 import "./projects.css";
 import Project from "./Project/Project";
 
-type TProject = {
+export type TProject = {
   name: string;
   description: string;
   github?: string;

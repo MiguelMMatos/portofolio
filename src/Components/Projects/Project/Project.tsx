@@ -1,14 +1,8 @@
-import React from "react";
+import { TProject } from "../Projects";
 import "./project.css";
 
 interface Props {
-  project: {
-    name: "Teste";
-    description: "description";
-    github: "www.google.com";
-    live: "www.google.com";
-    skills: ["JS", "react"];
-  };
+  project: TProject;
 }
 
 function Project({ project }: Props) {
