@@ -1,0 +1,21 @@
+.job_card {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.job_title {
+  display: flex;
+  gap: 20px;
+  font-size: 1.4rem;
+}
+
+.job_date {
+  font-size: 1rem;
+}
+
+.job_skills_container {
+  margin-top: 20px;
+  margin-left: 40px;
+}
