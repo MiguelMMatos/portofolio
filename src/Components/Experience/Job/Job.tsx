@@ -1,12 +1,8 @@
+import { TDescription } from "../Experience";
 import "./job.css";
 
 interface Props {
-  description: {
-    job: string;
-    companyName: string;
-    date: string;
-    skills: string[];
-  };
+  description: TDescription;
 }
 
 function Job({ description }: Props) {
@@ -17,11 +13,12 @@ function Job({ description }: Props) {
         <div>@{description.companyName}</div>
       </div>
       <div className="job_date">{description.date}</div>
-      <ul className="job_skills_container">
+      <div className="job_description">{description.description}</div>
+      <div className="job_skills_container">
         {description.skills.map((skill) => (
-          <li>{skill}</li>
+          <div>{skill}</div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

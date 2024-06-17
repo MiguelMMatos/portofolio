@@ -2,9 +2,10 @@ import { useState } from "react";
 import "./experience.css";
 import Job from "./Job/Job";
 
-type TDescription = {
+export type TDescription = {
   job: string;
   companyName: string;
+  description: string;
   date: string;
   skills: string[];
 };
@@ -12,15 +13,18 @@ type TDescription = {
 const multivision: TDescription = {
   job: "Full-Stack Developer",
   companyName: "Multivision",
-  date: "january 2012 - january 12121",
-  skills: [" C#", "Java"],
+  date: "February 2022 - March 2023",
+  description:
+    "Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like",
+  skills: [" C#", "Java", "RestAPI", "SQL"],
 };
 
 const collab: TDescription = {
   job: "Full-Stack Developer",
   companyName: "Collab",
-  date: "january 2012 - january 12121",
-  skills: [" C#", "Java"],
+  date: "March 2023 - Present",
+  description: "teste",
+  skills: [" C#", "Java", "RestAPI", "SQL", "React"],
 };
 
 const experience: TDescription[] = [multivision, collab];

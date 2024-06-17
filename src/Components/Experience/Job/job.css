@@ -1,4 +1,5 @@
 .job_card {
+  width: 500px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -12,10 +13,19 @@
 }
 
 .job_date {
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+
+.job_description {
+  margin: 20px;
 }
 
 .job_skills_container {
-  margin-top: 20px;
-  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 50%;
+
+  font-size: 0.8rem;
 }

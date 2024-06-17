@@ -13,11 +13,13 @@ function App() {
       <Nav></Nav>
       <div className="content_container">
         <Introduction></Introduction>
-        <AboutMe></AboutMe>
-        <Experience></Experience>
-        <Projects></Projects>
-        <Skills></Skills>
-        <Footer></Footer>
+        <div className="contents_container">
+          <AboutMe></AboutMe>
+          <Experience></Experience>
+          <Projects></Projects>
+          <Skills></Skills>
+          <Footer></Footer>
+        </div>
       </div>
     </>
   );

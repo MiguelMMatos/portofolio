@@ -1,12 +1,13 @@
 :root {
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",
-    "Lucida Console", Monaco, monospace;
+  --title-font-family: "Lobster", sans-serif;
+  --text-font-family: "Saira", sans-serif;
+  font-family: var(--text-font-family);
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--white);
+  background-color: var(--blue_dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

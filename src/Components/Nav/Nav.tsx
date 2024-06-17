@@ -17,6 +17,9 @@ function Nav() {
           <a href="#Projects" className="border_anim">
             <button>Projects</button>
           </a>
+          <a href="#Skills" className="border_anim">
+            <button>Skills</button>
+          </a>
         </div>
       </div>
     </div>

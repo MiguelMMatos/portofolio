@@ -1,0 +1,38 @@
+.skill_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.skill_name {
+  font-size: 20px;
+}
+
+.progress-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progress-circle::before {
+  content: "";
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: var(--blue_dark);
+  position: absolute;
+}
+
+.progress-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--orange);
+  z-index: 1;
+}
