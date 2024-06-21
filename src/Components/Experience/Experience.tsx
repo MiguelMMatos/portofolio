@@ -27,7 +27,7 @@ const collab: TDescription = {
   skills: [" C#", "Java", "RestAPI", "SQL", "React"],
 };
 
-const experience: TDescription[] = [multivision, collab];
+const experience: TDescription[] = [collab, multivision];
 
 function Experience() {
   const [company, setCompany] = useState(experience[0].companyName);

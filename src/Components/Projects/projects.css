@@ -3,6 +3,7 @@
 
 .projects_container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 20rem);
+  justify-content: space-around;
   gap: 20px;
 }

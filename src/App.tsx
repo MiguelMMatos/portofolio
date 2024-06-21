@@ -6,12 +6,17 @@ import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 import Skills from "./Components/Skills/Skills";
+import Background from "./Components/Background/Background";
 
 function App() {
   return (
     <>
+      <Background></Background>
       <Nav></Nav>
       <div className="content_container">
+        <div className="introduction_background">
+          <div className="background"></div>
+        </div>
         <Introduction></Introduction>
         <div className="contents_container">
           <AboutMe></AboutMe>

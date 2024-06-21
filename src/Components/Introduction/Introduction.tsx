@@ -2,10 +2,12 @@ import "./introduction.css";
 
 function Introduction() {
   return (
-    <div id="Introduction" className="content">
+    <div id="Introduction">
       <div className="introduction_container corner-borders">
         <div className="intro">Hi my name is</div>
-        <div className="name">Miguel Matos</div>
+        <div className="container">
+          <div className="typed-out">Miguel Matos</div>
+        </div>
         <div className="description">
           I'm a software engineer based in Portugal, Master degree in
           Information System who specializes in building website, applications

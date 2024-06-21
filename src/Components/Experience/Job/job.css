@@ -1,5 +1,5 @@
 .job_card {
-  width: 500px;
+  width: 600px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -9,14 +9,15 @@
 .job_title {
   display: flex;
   gap: 20px;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
 }
 
 .job_date {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .job_description {
+  font-size: 1.1rem;
   margin: 20px;
 }
 

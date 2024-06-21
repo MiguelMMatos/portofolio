@@ -7,10 +7,6 @@
 
   color-scheme: light dark;
   color: var(--white);
-  background-color: var(--blue_dark);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #284064 20%, #08023b);
 }
