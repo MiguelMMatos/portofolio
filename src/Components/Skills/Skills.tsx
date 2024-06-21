@@ -1,4 +1,3 @@
-import Skill from "./Skill/Skill";
 import "./skills.css";
 
 export type TSkills = {
