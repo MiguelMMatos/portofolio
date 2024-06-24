@@ -17,7 +17,7 @@ function AboutMe() {
               games and create applications for fun.
             </div>
             <div className="img_border">
-              <img src="https://github.com/MiguelMMatos/portofolio/blob/main/src/background/image.png?raw=true"></img>
+              <img src="https://github.com/MiguelMMatos/portofolio/blob/main/src/background/image_profile.png?raw=true"></img>
             </div>
           </div>
         </div>
