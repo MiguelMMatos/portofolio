@@ -6,14 +6,19 @@ function AboutMe() {
       <div className="content">
         <div className="about_container">
           <div className="content_tab">/ about me</div>
-          <div className="inner_content">
-            I am currently a Software Development Engineer at Amazon, working in
-            the AWS sector under team Route 53. At the same time, I am
-            undertaking a part-time Master's of Science in Software Engineering
-            at University of Oxford. Here are some technologies I have been
-            working with: Typescript Python React.js Java Javascript ES6+ C#
-            Outside of work, I'm interested in following the developments of
-            science. I also play a lot of video games. And make TikToks.
+          <div className="about_inner_content">
+            <div className="aboutMe-text">
+              I am a Software Development Engineer at Collab, working in the
+              Professional Services Team. I have a Bachelor's degree in Computer
+              Software Engineering & Multimedia at University of ISEL. Here are
+              some technologies I have been working with: Typescript Python
+              React.js Java Javascript C# Outside of work, I'm interested in
+              following the developments of science. I also play a lot of video
+              games and create applications for fun.
+            </div>
+            <div className="img_border">
+              <img src="https://github.com/MiguelMMatos/portofolio/blob/main/src/background/new.jpg?raw=true"></img>
+            </div>
           </div>
         </div>
       </div>

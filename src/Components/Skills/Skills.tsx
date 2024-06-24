@@ -80,6 +80,11 @@ const vs: TSkills = {
   experience: 3,
 };
 
+const pd: TSkills = {
+  name: "Pandas",
+  experience: 3,
+};
+
 function Skills() {
   const skills = [
     react,
@@ -89,6 +94,7 @@ function Skills() {
     ps,
     js,
     html,
+    pd,
     css,
     java,
     sql,
@@ -105,9 +111,9 @@ function Skills() {
         <div className="content_tab">/ skills</div>
         <div className="skills_container">
           <div className="skill_description">
-            This are mine skills This are mine skillsThis are mine skillsThis
-            are mine skillsThis are mine skillsThis are mine skillsThis are mine
-            skillsThis are mine skillsThis are mine skillsThis are mine skills
+            Proficient in React, JavaScript, TypeScript, HTML, CSS, SQL, Python,
+            and various other technologies including Pandas, PHP, Java, C#,
+            Angular, chartJS, Photoshop, Visual Studio, and GitHub.
           </div>
           <div>
             <ul

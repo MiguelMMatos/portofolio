@@ -9,9 +9,9 @@ function Introduction() {
           <div className="typed-out">Miguel Matos</div>
         </div>
         <div className="description">
-          I'm a software engineer based in Portugal, Master degree in
-          Information System who specializes in building website, applications
-          with lot of PHP
+          I'm a software engineer based in Portugal, Bachelor's degree in
+          Computer Software Engineering & Multimedia. I have a strong passion
+          for building robust and scalable websites and applications.
         </div>
       </div>
     </div>

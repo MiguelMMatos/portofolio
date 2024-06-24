@@ -22,7 +22,7 @@
 }
 
 .intro {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .name {
@@ -32,6 +32,7 @@
 
 .description {
   width: 100%;
+  font-size: 1.4rem;
 }
 
 @keyframes slideInFromLeft {
@@ -50,13 +51,14 @@
 }
 .typed-out {
   overflow: hidden;
-  border-right: 0.15em solid orange;
+  border-right: 0.05em solid white;
   white-space: nowrap;
   animation: typing 2s steps(20, end) forwards,
     blink-caret 0.75s step-end infinite 2s;
-  font-size: 5rem;
+  font-size: 7rem;
   font-family: var(--title-font-family);
   width: 0;
+  color: var(--orange) !important;
 }
 @keyframes typing {
   from {
@@ -70,7 +72,7 @@
 @keyframes blink-caret {
   from,
   to {
-    border-right: 0.1em solid orange;
+    border-right: 0.05em solid white;
   }
   50% {
     border-right: transparent;

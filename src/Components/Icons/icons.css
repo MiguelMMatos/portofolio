@@ -1,0 +1,24 @@
+#Icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.icons_left_container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  fill: grey;
+}
+
+svg:hover {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}

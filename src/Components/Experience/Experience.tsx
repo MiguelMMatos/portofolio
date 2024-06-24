@@ -14,8 +14,7 @@ const multivision: TDescription = {
   job: "Full-Stack Developer",
   companyName: "Multivision",
   date: "February 2022 - March 2023",
-  description:
-    "Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like Worked there and did stuff like",
+  description: "Developed and maintained C# application, using RESTful APIs",
   skills: [" C#", "Java", "RestAPI", "SQL"],
 };
 
@@ -23,7 +22,8 @@ const collab: TDescription = {
   job: "Full-Stack Developer",
   companyName: "Collab",
   date: "March 2023 - Present",
-  description: "teste",
+  description:
+    "Developed and maintained web applications using C#, React, Python, and RESTful APIs, collaborating with cross-functional teams to deliver high-quality features and optimize performance while ensuring best practices in code quality and development processes.",
   skills: [" C#", "Java", "RestAPI", "SQL", "React"],
 };
 
