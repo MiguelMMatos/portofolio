@@ -14,7 +14,8 @@ const multivision: TDescription = {
   job: "Full-Stack Developer",
   companyName: "Multivision",
   date: "February 2022 - March 2023",
-  description: "Developed and maintained C# application, using RESTful APIs",
+  description:
+    "Designed and implemented web applications utilizing Java, SQL, working closely with product managers and UI/UX designers to deliver scalable and user-friendly solutions. Focused on improving application performance and adhering to industry standards in software development and testing practices.",
   skills: [" C#", "Java", "RestAPI", "SQL"],
 };
 
@@ -23,7 +24,7 @@ const collab: TDescription = {
   companyName: "Collab",
   date: "March 2023 - Present",
   description:
-    "Developed and maintained web applications using C#, React, Python, and RESTful APIs, collaborating with cross-functional teams to deliver high-quality features and optimize performance while ensuring best practices in code quality and development processes.",
+    "Developed and maintained  web applications using C#, React, Python, and RESTful APIs, collaborating with cross-functional teams to deliver high-quality features and optimize performance while ensuring best practices in code quality and development processes.",
   skills: [" C#", "Java", "RestAPI", "SQL", "React"],
 };
 
