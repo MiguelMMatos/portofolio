@@ -42,8 +42,17 @@ const pokedex: TProject = {
   skills: ["React", "RestAPI", "TypeScript"],
 };
 
+const sorting: TProject = {
+  name: "Sorting Visual",
+  description:
+    "Shows a visual representation of a number of sorting algorithms.",
+
+  live: "https://miguelmmatos.github.io/SortingVisual/",
+  skills: ["React", "TypeScript"],
+};
+
 function Projects() {
-  const projects = [instagram, task_focus, pokedex, coin_detect];
+  const projects = [instagram, pokedex, sorting, task_focus, coin_detect];
 
   return (
     <div id="Projects" className="content">
